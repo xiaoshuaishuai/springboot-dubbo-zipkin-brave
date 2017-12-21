@@ -70,53 +70,53 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-		<!-- brave -->
-		<dependency>
-			<groupId>io.zipkin.brave</groupId>
-			<artifactId>brave</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>io.zipkin.brave</groupId>
-			<artifactId>brave-spring-beans</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>io.zipkin.brave</groupId>
-			<artifactId>brave-instrumentation-spring-webmvc</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>io.zipkin.brave</groupId>
-			<artifactId>brave-instrumentation-spring-web</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>io.zipkin.brave</groupId>
-			<artifactId>brave-instrumentation-http</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>io.zipkin.brave</groupId>
-			<artifactId>brave-instrumentation-httpclient</artifactId>
-		</dependency>
-		<!-- <dependency> 已过时 <groupId>io.zipkin.brave</groupId> <artifactId>brave-spring-web-servlet-interceptor</artifactId> 
-			<version>${brave.version}</version> </dependency> <dependency> <groupId>io.zipkin.brave</groupId> 
-			<artifactId>brave-spring-resttemplate-interceptors</artifactId> <version>${brave.version}</version> 
-			</dependency> -->
-		<!-- brave -->
-		<!-- zipkin -->
-		<dependency>
-			<groupId>io.zipkin.reporter</groupId>
-			<artifactId>zipkin-sender-okhttp3</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>io.zipkin.reporter</groupId>
-			<artifactId>zipkin-sender-libthrift</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>io.zipkin.reporter</groupId>
-			<artifactId>zipkin-sender-kafka08</artifactId>
-		</dependency>
-		<!-- zipkin -->
-	<!-- 	<dependency>
-			<groupId>org.mybatis.spring.boot</groupId>
-			<artifactId>mybatis-spring-boot-starter</artifactId>
-		</dependency> -->
+		    <dependency>
+		      <groupId>io.zipkin.brave</groupId>
+		      <artifactId>brave</artifactId>
+		    </dependency>
+			<dependency>
+				<groupId>io.zipkin.brave</groupId>
+				<artifactId>brave-instrumentation-spring-webmvc</artifactId>
+			</dependency>
+			<dependency>
+				<groupId>io.zipkin.brave</groupId>
+				<artifactId>brave-instrumentation-spring-web</artifactId>
+			</dependency>
+			<dependency>
+				<groupId>io.zipkin.brave</groupId>
+				<artifactId>brave-instrumentation-http</artifactId>
+			</dependency>
+			<dependency>
+				<groupId>io.zipkin.brave</groupId>
+				<artifactId>brave-instrumentation-httpclient</artifactId>
+			</dependency>
+			<dependency>
+				<groupId>io.zipkin.brave</groupId>
+				<artifactId>brave-instrumentation-mysql</artifactId>
+			</dependency>
+			<dependency>
+				<groupId>io.zipkin.brave</groupId>
+				<artifactId>brave-instrumentation-okhttp3</artifactId>
+			</dependency>
+			<dependency>
+				<groupId>io.zipkin.brave</groupId>
+				<artifactId>brave-instrumentation-servlet</artifactId>
+			</dependency>
+			 <dependency>
+				<groupId>io.zipkin.reporter2</groupId>
+				<artifactId>zipkin-sender-okhttp3</artifactId>
+			</dependency>
+			
+			<dependency>
+				<groupId>io.zipkin.brave</groupId>
+				<artifactId>brave-instrumentation-spring-dubbo</artifactId>
+				<exclusions>
+					<exclusion>
+						<groupId>*</groupId>
+						<artifactId>*</artifactId>
+					</exclusion>
+				</exclusions>
+			</dependency>
+			
 	</dependencies>
 </project>

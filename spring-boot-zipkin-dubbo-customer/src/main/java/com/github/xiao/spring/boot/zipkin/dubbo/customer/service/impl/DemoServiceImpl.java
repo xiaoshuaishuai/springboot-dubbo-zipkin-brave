@@ -6,7 +6,7 @@ import com.github.xiao.spring.boot.zipkin.dubbo.api.dubboservice.IDemoDubboServi
 @Service
 public class DemoServiceImpl implements com.github.xiao.spring.boot.zipkin.dubbo.customer.service.IDemoService {
 	
-	@com.alibaba.dubbo.config.annotation.Reference
+	@com.alibaba.dubbo.config.annotation.Reference(check=false)
 	private IDemoDubboService demoDubboService;
 	
 	@Override

@@ -9,7 +9,7 @@ import com.github.xiao.spring.boot.zipkin.dubbo.api.entity.DepartmentEntity;
 import com.github.xiao.spring.boot.zipkin.dubbo.customer.service.IDepartmentService;
 @Service
 public class DepartmentServiceImpl implements IDepartmentService {
-	@com.alibaba.dubbo.config.annotation.Reference
+	@com.alibaba.dubbo.config.annotation.Reference(check=false)
 	private IDepartmentDubboService departmentDubboService;
 	
 	@Override

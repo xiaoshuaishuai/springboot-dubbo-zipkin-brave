@@ -9,7 +9,7 @@ import com.github.xiao.spring.boot.zipkin.dubbo.api.entity.PersonEntity;
 import com.github.xiao.spring.boot.zipkin.dubbo.customer.service.IPersonService;
 @Service
 public class PersonServiceImpl implements IPersonService {
-	@com.alibaba.dubbo.config.annotation.Reference
+	@com.alibaba.dubbo.config.annotation.Reference(check=false)
 	private IPersonDubboService personDubboService;
 	
 	@Override
