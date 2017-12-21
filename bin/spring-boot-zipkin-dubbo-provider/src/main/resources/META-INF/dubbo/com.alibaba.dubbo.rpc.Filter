@@ -1,2 +1,0 @@
-braveDubboFilter=com.github.xiao.spring.boot.zipkin.dubbo.common.filter.rpc.BraveDubboFilter
-mybatisMultiDataSourceDubboFilter=com.github.xiao.spring.boot.zipkin.dubbo.common.dynamic.filter.rpc.MybatisMultiDataSourceDubboFilter
