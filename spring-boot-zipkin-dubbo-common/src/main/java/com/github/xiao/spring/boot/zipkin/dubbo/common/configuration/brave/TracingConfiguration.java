@@ -7,6 +7,7 @@ import org.springframework.context.annotation.Configuration;
 import brave.Tracing;
 import brave.http.HttpTracing;
 import brave.sampler.Sampler;
+import io.zipkin.brave.DubboTracing;
 import io.zipkin.brave.TraceConfig;
 import zipkin2.Span;
 import zipkin2.reporter.AsyncReporter;
@@ -39,4 +40,8 @@ public class TracingConfiguration {
 		return OkHttpSender.create(config.getEndpoint());
 	}
 
+	@Bean
+	DubboTracing dubboTracing(Tracing tracing) {
+		return DubboTracing.create(tracing);
+	}
 }

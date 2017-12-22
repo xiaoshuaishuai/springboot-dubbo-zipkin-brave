@@ -120,6 +120,11 @@
 				<artifactId>brave-instrumentation-servlet</artifactId>
 				<version>${brave.version}</version>
 			</dependency>
+			<dependency>
+				<groupId>io.zipkin.brave</groupId>
+				<artifactId>brave-instrumentation-grpc</artifactId>
+				<version>${brave.version}</version>
+			</dependency>
 			<!-- zipkin -->
 			<dependency>
 				<groupId>io.zipkin.reporter2</groupId>

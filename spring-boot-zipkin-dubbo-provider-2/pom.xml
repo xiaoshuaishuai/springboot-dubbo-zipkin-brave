@@ -2,10 +2,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<artifactId>spring-boot-zipkin-dubbo-provider</artifactId>
+	<artifactId>spring-boot-zipkin-dubbo-provider-2</artifactId>
 	<packaging>jar</packaging>
 
-	<name>spring-boot-zipkin-dubbo-provider</name>
+	<name>spring-boot-zipkin-dubbo-provider-2</name>
 	<url>http://maven.apache.org</url>
 
 	<parent>
