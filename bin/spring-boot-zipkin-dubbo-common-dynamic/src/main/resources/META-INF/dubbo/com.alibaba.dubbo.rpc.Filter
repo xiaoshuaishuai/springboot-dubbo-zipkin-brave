@@ -1,1 +1,0 @@
-mybatisMultiDataSourceDubboFilter=com.github.xiao.spring.boot.zipkin.dubbo.common.dynamic.filter.rpc.MybatisMultiDataSourceDubboFilter
