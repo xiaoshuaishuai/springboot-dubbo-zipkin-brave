@@ -1,3 +1,0 @@
-[WARN ] 2017-12-21 16:55:52,397 --http-nio-8086-exec-2-- [org.springframework.web.servlet.PageNotFound] No mapping found for HTTP request with URI [/favicon.ico] in DispatcherServlet with name 'dispatcherServlet' 
-[WARN ] 2017-12-21 17:03:48,557 --main-- [com.alibaba.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationBeanPostProcessor]  [DUBBO] No Spring Bean annotating Dubbo's @Service was found in Spring BeanFactory, dubbo version: 2.5.8, current host: 127.0.0.1 
-[WARN ] 2017-12-21 17:33:50,653 --main-- [com.alibaba.dubbo.config.spring.beans.factory.annotation.ServiceAnnotationBeanPostProcessor]  [DUBBO] No Spring Bean annotating Dubbo's @Service was found in Spring BeanFactory, dubbo version: 2.5.8, current host: 127.0.0.1 
